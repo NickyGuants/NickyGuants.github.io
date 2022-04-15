@@ -20,28 +20,28 @@ const About = () => {
           </div>
         </div>
         <div className="card">
-          <h2>Front-End Development</h2>
+          <h2>Backend Development</h2>
           <p>User experience and usable interfaces is my biggest concern</p>
           <div>
             <h3>Tech Stack</h3>
             <ul>
-              <li>Html5</li>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Redux</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Spring Boot</li>
+              <li>Django</li>
             </ul>
           </div>
         </div>
         <div className="card">
-          <h2>Front-End Development</h2>
+          <h2>Database Management</h2>
           <p>User experience and usable interfaces is my biggest concern</p>
           <div>
-            <h3>Tech Stack</h3>
+            <h3>Stack</h3>
             <ul>
-              <li>Html5</li>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Redux</li>
+              <li>Microrost SQL Server</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
             </ul>
           </div>
         </div>

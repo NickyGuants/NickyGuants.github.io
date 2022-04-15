@@ -78,6 +78,8 @@
   margin-top: 2rem;
   height: max-content;
   color: black;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .about h1 {
   text-align: center;
@@ -93,6 +95,7 @@
 }
 .card {
   width: 30%;
+  height: 300px;
   box-shadow: 4px 4px 8px 0px;
   display: flex;
   justify-content: space-between;
@@ -101,4 +104,13 @@
   margin: 20px;
   border-radius: 10px;
   padding: 1rem;
+}
+.portfolio {
+  color: white;
+  background-color: black;
+}
+.portfolio h1 {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
