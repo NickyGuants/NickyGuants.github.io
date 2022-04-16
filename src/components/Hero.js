@@ -16,9 +16,11 @@ const Hero = () => {
 
           <div className="profile-text">
             <h1>Hi, I'm Guantai Nicholas</h1>
-            <h2>I am a full-stack developer from Kenya</h2>
+            <h2>Full-Stack Software Engineer</h2>
             <p>
-              I am passionate about solving problems using various technologies.
+              I'm a software engineer specializing in
+              building (and occasionally designing) exceptional digital experiences. <br />
+              Currently, I'm focused on building accessible, human-centered products as a freelancer
             </p>
           </div>
         </div>

@@ -9,11 +9,11 @@ const About = () => {
           <h2>Front-End Development</h2>
           {/* <img src="../../public/images/frontend.png" alt="frontend-img" /> */}
           <p>User experience and usable interfaces is my biggest concern</p>
-          <div>
+          <div className="stack">
             <h3>Tech Stack</h3>
             <ul>
-              <li>Html5</li>
-              <li>CSS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>React</li>
               <li>Redux</li>
             </ul>
@@ -22,10 +22,12 @@ const About = () => {
         <div className="card">
           <h2>Backend Development</h2>
           <p>User experience and usable interfaces is my biggest concern</p>
-          <div>
+          <div className="stack">
             <h3>Tech Stack</h3>
             <ul>
-              <li>Node.js</li>
+              <li>
+                Node.js
+              </li>
               <li>Express.js</li>
               <li>Spring Boot</li>
               <li>Django</li>
@@ -35,8 +37,8 @@ const About = () => {
         <div className="card">
           <h2>Database Management</h2>
           <p>User experience and usable interfaces is my biggest concern</p>
-          <div>
-            <h3>Stack</h3>
+          <div className="stack">
+            <h3>Tech Stack</h3>
             <ul>
               <li>Microrost SQL Server</li>
               <li>MySQL</li>

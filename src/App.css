@@ -70,16 +70,17 @@
   font-size: 2rem;
   color: white;
 }
+.links a:hover{
+  color: blue;
+}
 
 /*Skills section*/
 .about {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
   height: max-content;
   color: black;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 .about h1 {
   text-align: center;
@@ -88,29 +89,63 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 85%;
-  margin: 0 auto;
+  justify-content: space-between;
+  width: 100%;
 }
 .card {
   width: 30%;
   height: 300px;
   box-shadow: 4px 4px 8px 0px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  border-radius: 10px;
-  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1.2rem;
 }
+.card:hover{
+  background-color: black;
+  color: white;
+  width: 40%;
+  height: 350px;
+}
+
+.card h2{
+  padding: 1rem 0rem 1rem 0rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.card ul li{
+  list-style: square;
+  width: 40%;
+  font-size: 1.0rem;
+}
+.card p{
+  margin-left: 0.7rem;
+}
+.stack{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stack h3{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.stack ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Portfolio section */
+
 .portfolio {
   color: white;
   background-color: black;
 }
 .portfolio h1 {
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
 }
