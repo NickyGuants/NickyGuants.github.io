@@ -5,14 +5,16 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Stats from "./components/Stats";
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+        <Header />
         <Hero  />
         <About />
+        <Stats />
         <Portfolio />
         <Contact />
         <Footer />
