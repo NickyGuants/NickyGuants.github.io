@@ -15,10 +15,7 @@ const Header = () => {
                           <Link to='#about' smooth>About</Link>
                       </li>
                       <li className='hover:underline hover:decoration-4'>
-                          <Link to='#skills' smooth>Skills</Link>
-                      </li>
-                      <li className='hover:underline hover:decoration-4'>
-                          <Link to='#projects' smooth>Projects</Link>
+                          <Link to='#portfolio' smooth>Portfolio</Link>
                       </li>
                       <li className='hover:underline hover:decoration-4'>
                           <Link to='#work' smooth>Work Experience</Link>
